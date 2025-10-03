@@ -41,9 +41,9 @@
 
 ## 🚀 Quick Links
 
-- **[Technology Stack](./TECH_STACK.md)** - Tools & frameworks I work with
-- **[Featured Projects](./PROJECTS.md)** - Recent work & open-source contributions
-- **[Research](./RESEARCH.md)** - Publications & interests
+- **[Technology Stack](./profile/TECH_STACK.md)** - Tools & frameworks I work with
+- **[Featured Projects](./profile/PROJECTS.md)** - Recent work & open-source contributions
+- **[Research](./profile/RESEARCH.md)** - Publications & interests
 
 ---
 
