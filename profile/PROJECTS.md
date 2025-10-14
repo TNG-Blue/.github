@@ -7,7 +7,7 @@
 ## 🎯 Quick Navigation
 - [Autonomous Hexacopter](#-autonomous-hexacopter-with-isaac-ros)
 - [Jetbot Navigation](#-autonomous-jetbot-navigation)
-- [Fish Detection System](#-gpu-accelerated-fish-detection)
+- [Object Detection System](#-gpu-accelerated-object-detection-system)
 - [STM32 Development](#-stm32-embedded-development)
 - [Future Roadmap](#-future-roadmap)
 
@@ -107,12 +107,12 @@ AI Framework: TensorFlow Lite / PyTorch
 
 ---
 
-## 🐟 GPU-Accelerated Fish Detection
+## 🎯 GPU-Accelerated Object Detection System
 
 <table>
 <tr>
 <td width="120"><b>Repository</b></td>
-<td><a href="https://github.com/TNG-Blue/VPI_FishDetection">VPI_FishDetection</a></td>
+<td><a href="https://github.com/TNG-Blue/VPI_FishDetection">VPI_ObjectDetection</a></td>
 </tr>
 <tr>
 <td><b>Status</b></td>
@@ -121,28 +121,42 @@ AI Framework: TensorFlow Lite / PyTorch
 </table>
 
 ### 📋 Project Overview
-High-performance computer vision system leveraging NVIDIA VPI for hardware-accelerated fish detection with real-time processing capabilities.
+High-performance computer vision system leveraging NVIDIA VPI for hardware-accelerated object detection with real-time processing capabilities. Features **traditional computer vision algorithms** allowing detection of any user-selected objects without requiring AI model training.
 
 ### 🛠️ Technical Stack
 ```
 Framework:   NVIDIA Vision Programming Interface (VPI)
 Platform:    Jetson Series
 Vision:      OpenCV
-Inference:   Deep Learning Models
+Detection:   Traditional CV Algorithms (Color, Contour, Template Matching)
 ```
 
 ### ✨ Core Features
 - ⚡ Hardware-accelerated image processing pipeline
+- 🎨 **Color-based detection** - Select any color range dynamically
+- 📐 **Contour & shape detection** - Identify objects by geometry
+- 🖼️ **Template matching** - Detect objects from reference images
 - 🎯 Optimized specifically for Jetson architecture
 - ⏱️ Real-time detection with low latency
-- 🔋 Power-efficient inference
+- 🔋 Power-efficient processing
+- 🚫 **No AI training required** - Instant object selection
+
+### 🔧 Detection Methods
+| Method | Description | Use Case |
+|--------|-------------|----------|
+| 🎨 Color Segmentation | HSV-based color filtering | Tracking colored objects |
+| 📏 Contour Analysis | Shape and size-based detection | Geometric object recognition |
+| 🖼️ Template Matching | Cross-correlation matching | Specific item detection |
+| 🔍 Feature Detection | ORB/SIFT keypoint matching | Textured object tracking |
 
 ### 🎯 Applications
 | Domain | Use Case |
 |--------|----------|
 | 🐠 Aquaculture | Automated monitoring and counting |
+| 🏭 Manufacturing | Quality control and defect detection |
 | 🌊 Marine Research | Species identification and tracking |
 | 📚 Education | Computer vision learning platform |
+| 🎮 Interactive Systems | Real-time object interaction |
 
 ---
 
