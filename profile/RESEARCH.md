@@ -141,8 +141,8 @@ Sensors: LiDAR, RGB Camera, IMU, GPS
 
 ---
 
-### 🐟 GPU-Accelerated Vision Pipeline
-[![Repo](https://img.shields.io/badge/Repository-VPI__FishDetection-5C3EE8?style=flat-square&logo=github)](https://github.com/TNG-Blue/VPI_FishDetection)
+### 🎯 GPU-Accelerated Vision Pipeline
+[![Repo](https://img.shields.io/badge/Repository-VPI__ObjectDetection-5C3EE8?style=flat-square&logo=github)](https://github.com/TNG-Blue/VPI_ObjectDetection)
 
 <div align="center">
 
@@ -157,7 +157,7 @@ Sensors: LiDAR, RGB Camera, IMU, GPS
 
 **Features:** Hardware-accelerated processing • Real-time detection • Low-power optimization • Multi-object tracking
 
-**Applications:** Aquaculture monitoring • Marine research • Educational CV projects
+**Applications:** General object detection • Computer vision research • Robotics perception • Educational CV projects
 
 ---
 
@@ -476,7 +476,7 @@ graph LR
 - 🤖 [**Jetbot_Nano**](https://github.com/TNG-Blue/Jetbot_Nano)  
   AI Mobile Robot Platform
 
-- 🐟 [**VPI_FishDetection**](https://github.com/TNG-Blue/VPI_FishDetection)  
+- 🎯 [**VPI_ObjectDetection**](https://github.com/TNG-Blue/VPI_ObjectDetection)  
   GPU Vision Pipeline
 
 - 🔧 [**Mbed_Portenta-H7**](https://github.com/TNG-Blue/Mbed_Portenta-H7)  
@@ -498,5 +498,3 @@ graph LR
 </td>
 </tr>
 </table>
-
-```
