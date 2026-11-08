@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: 📖 Documentation
-    url: https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/
-    about: Guides, tutorials and troubleshooting.
-  - name: 🔒 Security vulnerability
-    url: https://github.com/TNG-Blue/.github/blob/master/SECURITY.md
-    about: Report privately — never in a public issue.

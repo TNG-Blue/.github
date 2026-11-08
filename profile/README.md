@@ -34,6 +34,3 @@ ground robot: GPU perception, sensor fusion, flight control and OTA updates.
 - [Projects](https://github.com/TNG-Blue/.github/blob/master/profile/PROJECTS.md) — what is active and what is next
 - [Tech stack](https://github.com/TNG-Blue/.github/blob/master/profile/TECH_STACK.md) — tools per domain
 - [Research](https://github.com/TNG-Blue/.github/blob/master/profile/RESEARCH.md) — focus areas and roadmap
-- [Contributing](https://github.com/TNG-Blue/.github/blob/master/CONTRIBUTING.md) ·
-  [Security](https://github.com/TNG-Blue/.github/blob/master/SECURITY.md) ·
-  [Support](https://github.com/TNG-Blue/.github/blob/master/SUPPORT.md)
