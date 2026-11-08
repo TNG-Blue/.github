@@ -1,36 +1,61 @@
 <div align="center">
 
-# TNG-Blue
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,100:00D4FF&height=180&section=header&text=TNG-Blue&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Autonomous%20robotics%20at%20the%20edge&descSize=18&descAlignY=58" width="100%" alt="TNG-Blue" />
 
-**Autonomous robotics at the edge** — GPU perception, model-based control and embedded firmware
-on NVIDIA Jetson and STM32.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=800&color=00D4FF&center=true&vCenter=true&width=620&lines=GPU+perception+on+NVIDIA+Jetson;Model-based%2C+closed-loop+control;Embedded+firmware+on+STM32N6;From+Simulink+to+SIL%2C+HIL+and+flight" alt="Typing headline" />
 
-[![Docs](https://img.shields.io/badge/docs-Isaac__ROS--Jetbot__NanoOWL-00D4FF?style=flat-square&logo=materialformkdocs&logoColor=white)](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
-![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
-![Jetson](https://img.shields.io/badge/Jetson-Orin%20Nano%20Super-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-N6-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
+[![Docs](https://img.shields.io/badge/Docs-Isaac__ROS--Jetbot__NanoOWL-00D4FF?style=for-the-badge&logo=materialformkdocs&logoColor=white)](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
+![License](https://img.shields.io/badge/License-Apache--2.0-0A1F44?style=for-the-badge)
 
 </div>
 
-## What we build
+## 🚁 Flagship — Isaac_ROS-Jetbot_NanoOWL
 
-| Area | Stack |
-|------|-------|
-| 🤖 Robotics | ROS 2 Humble, Nav2, LiDAR SLAM, Gazebo Harmonic |
-| 👁️ Perception | Isaac ROS, NanoOWL (open-vocabulary detection), TensorRT, CUDA, VPI |
-| 🎛️ Control | Sensor → filter → estimator (KF/EKF) → controller (PID/LQR/MPC/FOC) → actuator, closed loop |
-| 🔧 Embedded | STM32N6 (FreeRTOS, TrustZone), Arduino Portenta H7, ESP32, OpenMV |
-| ☁️ Deployment | Docker, Kubernetes/Helm, Go OTA server, MATLAB/Simulink codegen |
+A Jetson Orin Nano Super platform for a **coaxial X12 hexacopter** and a **ground robot**:
+open-vocabulary perception with NanoOWL, sensor fusion, flight control, simulation and OTA updates.
 
-## Flagship
+```mermaid
+flowchart LR
+  S[Sensors<br/>IMU · GNSS · LiDAR · camera] --> F[Filter] --> E[Estimator<br/>KF / EKF] --> C[Controller<br/>PID · LQR · MPC · FOC] --> A[Actuators<br/>12 × BLDC] --> P((Plant))
+  P -. feedback .-> S
+```
 
-**Isaac_ROS-Jetbot_NanoOWL** — Jetson Orin Nano Super platform for a coaxial X12 hexacopter and a
-ground robot: GPU perception, sensor fusion, flight control and OTA updates.
-📖 [Documentation](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>👁️ Perception</b><br/>
+      Isaac ROS · NanoOWL<br/>TensorRT · CUDA <code>sm_87</code> · VPI
+    </td>
+    <td width="33%" valign="top">
+      <b>🎛️ Control</b><br/>
+      Derived, closed-loop designs<br/>GM ≥ 6 dB · PM ≥ 45°
+    </td>
+    <td width="33%" valign="top">
+      <b>🔧 Embedded</b><br/>
+      STM32N6 · FreeRTOS · TrustZone<br/>Portenta H7 · ESP32 · OpenMV
+    </td>
+  </tr>
+</table>
 
-## More
+## 🛠️ Stack
 
-- [Projects](https://github.com/TNG-Blue/.github/blob/master/profile/PROJECTS.md) — what is active and what is next
-- [Tech stack](https://github.com/TNG-Blue/.github/blob/master/profile/TECH_STACK.md) — tools per domain
-- [Research](https://github.com/TNG-Blue/.github/blob/master/profile/RESEARCH.md) — focus areas and roadmap
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ros,py,cpp,c,go,matlab,opencv,pytorch,docker,kubernetes,ubuntu,cmake,arduino,githubactions&perline=14" alt="Tech stack" />
+
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA-Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-F58113?style=flat-square)
+![STM32](https://img.shields.io/badge/STM32-N6-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+
+</div>
+
+## 📌 More
+
+[Projects](https://github.com/TNG-Blue/.github/blob/master/profile/PROJECTS.md) ·
+[Tech stack](https://github.com/TNG-Blue/.github/blob/master/profile/TECH_STACK.md) ·
+[Research](https://github.com/TNG-Blue/.github/blob/master/profile/RESEARCH.md) ·
+[Documentation](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A1F44&height=100&section=footer" width="100%" alt="" />
