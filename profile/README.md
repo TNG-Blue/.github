@@ -1,58 +1,65 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,24&height=300&section=header&text=TNG-Blue&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,100:00D4FF&height=180&section=header&text=TNG-Blue&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Robotics%20%C2%B7%20Edge%20AI%20%C2%B7%20Embedded%20Systems&descSize=18&descAlignY=58" width="100%" alt="TNG-Blue" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=800&color=00D4FF&center=true&vCenter=true&width=620&lines=Autonomous+robots+and+UAVs;GPU-accelerated+perception+at+the+edge;Model-based%2C+closed-loop+control;Firmware+from+MCU+to+cloud" alt="Typing headline" />
+
 </div>
+
+## 👋 About us
+
+**TNG-Blue** builds autonomous machines end to end — from the microcontroller that spins the motor
+to the GPU that sees the scene and the cloud that updates the fleet. We work in the open under
+**Apache-2.0** and favour engineering that can be proven: every controller is derived from a model,
+closed-loop, and verified before it moves real hardware.
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <b>🤖 Robotics</b><br/>
+      ROS 2 · Nav2 · SLAM<br/>Gazebo simulation
+    </td>
+    <td width="25%" valign="top">
+      <b>👁️ Edge AI</b><br/>
+      Jetson · CUDA · TensorRT<br/>Isaac ROS · OpenCV · VPI
+    </td>
+    <td width="25%" valign="top">
+      <b>🎛️ Control</b><br/>
+      KF / EKF · PID · LQR<br/>MPC · FOC · MATLAB
+    </td>
+    <td width="25%" valign="top">
+      <b>🔧 Embedded</b><br/>
+      STM32 · ESP32 · OpenMV<br/>FreeRTOS · TrustZone
+    </td>
+  </tr>
+</table>
+
+## 🚀 Projects
+
+| Project | What it is | Platform |
+|---------|------------|----------|
+| **Isaac_ROS-Jetbot_NanoOWL** · [docs](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/) | Hexacopter + ground-robot platform with open-vocabulary perception | Jetson Orin Nano Super |
+| **JetOwl** | Flight-control and vision firmware | STM32N657 |
+| **Jetbot Nano** | ROS 2 mobile robot with ESP32 motor bridge | Jetson Nano · ESP32 |
+| **VPI Detection** | Training-free, hardware-accelerated object detection | Jetson · VPI |
+| **Portenta H7** | Dual-core real-time firmware | STM32H747 |
+
+## 🛠️ Stack
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=36&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&random=false&width=1000&lines=Robotics+%26+Computer+Vision+Engineer;High-Performance+Computing+Expert;GPU+Acceleration+%26+Edge+AI+Specialist;Embedded+Systems+%26+MCU+Developer;Building+Tomorrow's+Intelligent+Machines" alt="Typing SVG" />
+
+<img src="https://skillicons.dev/icons?i=ros,py,cpp,c,go,matlab,opencv,pytorch,docker,kubernetes,ubuntu,cmake,arduino,githubactions&perline=14" alt="Tech stack" />
+
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA-Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-N6%20%C2%B7%20H7-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache--2.0-0A1F44?style=flat-square)
+
+[Projects](https://github.com/TNG-Blue/.github/blob/master/profile/PROJECTS.md) ·
+[Tech stack](https://github.com/TNG-Blue/.github/blob/master/profile/TECH_STACK.md) ·
+[Research](https://github.com/TNG-Blue/.github/blob/master/profile/RESEARCH.md)
+
 </div>
 
-<div align="center">
-  <a href="https://github.com/TNG-Blue">
-    <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Followers&labelColor=282c34&color=00D4FF&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DTNG-Blue&longCache=true&style=for-the-badge" alt="GitHub Followers">
-  </a>
-  <a href="https://github.com/TNG-Blue">
-    <img src="https://img.shields.io/github/stars/TNG-Blue?color=FFD700&label=GitHub%20Stars&logo=github&logoColor=white&labelColor=282c34&style=for-the-badge" alt="GitHub Stars">
-  </a>
-</div>
-<br>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="45%" align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="400">
-      </td>
-      <td width="55%" align="left">
-        <h3>🎯 <strong>Expertise & Focus Areas</strong></h3>
-        <div>
-          🤖 <strong>Autonomous Robotics</strong> - ROS2, Navigation, SLAM<br>
-          🔧 <strong>Embedded AI Systems</strong> - Jetson, STM32, Edge Computing<br>
-          ⚡ <strong>GPU Computing</strong> - CUDA, TensorRT Optimization<br>
-          👁️ <strong>Computer Vision</strong> - OpenCV, Real-time Processing<br>
-          💻 <strong>HPC Architecture</strong> - Parallel Algorithms<br>
-          🗺️ <strong>Real-time SLAM</strong> & Localization<br>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🚀 Quick Links
-
-- **[Technology Stack](./profile/TECH_STACK.md)** - Tools & frameworks I work with
-- **[Featured Projects](./profile/PROJECTS.md)** - Recent work & open-source contributions
-- **[Research](./profile/RESEARCH.md)** - Publications & interests
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="95%"/>
-</div>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=2000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!;Don't+forget+to+star+my+repositories!;Let's+innovate+together!" alt="Footer" />
-</div>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,24&height=200&section=footer&animation=fadeIn" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A1F44&height=100&section=footer" width="100%" alt="" />
