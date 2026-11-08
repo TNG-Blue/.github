@@ -1,58 +1,39 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,24&height=300&section=header&text=TNG-Blue&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc" width="100%" />
+
+# TNG-Blue
+
+**Autonomous robotics at the edge** — GPU perception, model-based control and embedded firmware
+on NVIDIA Jetson and STM32.
+
+[![Docs](https://img.shields.io/badge/docs-Isaac__ROS--Jetbot__NanoOWL-00D4FF?style=flat-square&logo=materialformkdocs&logoColor=white)](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson-Orin%20Nano%20Super-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-N6-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
+
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=36&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&random=false&width=1000&lines=Robotics+%26+Computer+Vision+Engineer;High-Performance+Computing+Expert;GPU+Acceleration+%26+Edge+AI+Specialist;Embedded+Systems+%26+MCU+Developer;Building+Tomorrow's+Intelligent+Machines" alt="Typing SVG" />
-</div>
+## What we build
 
-<div align="center">
-  <a href="https://github.com/TNG-Blue">
-    <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub%20Followers&labelColor=282c34&color=00D4FF&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DTNG-Blue&longCache=true&style=for-the-badge" alt="GitHub Followers">
-  </a>
-  <a href="https://github.com/TNG-Blue">
-    <img src="https://img.shields.io/github/stars/TNG-Blue?color=FFD700&label=GitHub%20Stars&logo=github&logoColor=white&labelColor=282c34&style=for-the-badge" alt="GitHub Stars">
-  </a>
-</div>
-<br>
+| Area | Stack |
+|------|-------|
+| 🤖 Robotics | ROS 2 Humble, Nav2, LiDAR SLAM, Gazebo Harmonic |
+| 👁️ Perception | Isaac ROS, NanoOWL (open-vocabulary detection), TensorRT, CUDA, VPI |
+| 🎛️ Control | Sensor → filter → estimator (KF/EKF) → controller (PID/LQR/MPC/FOC) → actuator, closed loop |
+| 🔧 Embedded | STM32N6 (FreeRTOS, TrustZone), Arduino Portenta H7, ESP32, OpenMV |
+| ☁️ Deployment | Docker, Kubernetes/Helm, Go OTA server, MATLAB/Simulink codegen |
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="45%" align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="400">
-      </td>
-      <td width="55%" align="left">
-        <h3>🎯 <strong>Expertise & Focus Areas</strong></h3>
-        <div>
-          🤖 <strong>Autonomous Robotics</strong> - ROS2, Navigation, SLAM<br>
-          🔧 <strong>Embedded AI Systems</strong> - Jetson, STM32, Edge Computing<br>
-          ⚡ <strong>GPU Computing</strong> - CUDA, TensorRT Optimization<br>
-          👁️ <strong>Computer Vision</strong> - OpenCV, Real-time Processing<br>
-          💻 <strong>HPC Architecture</strong> - Parallel Algorithms<br>
-          🗺️ <strong>Real-time SLAM</strong> & Localization<br>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+## Flagship
 
----
+**Isaac_ROS-Jetbot_NanoOWL** — Jetson Orin Nano Super platform for a coaxial X12 hexacopter and a
+ground robot: GPU perception, sensor fusion, flight control and OTA updates.
+📖 [Documentation](https://tng-blue.github.io/Isaac_ROS-Jetbot_NanoOWL-Docs/)
 
-## 🚀 Quick Links
+## More
 
-- **[Technology Stack](./profile/TECH_STACK.md)** - Tools & frameworks I work with
-- **[Featured Projects](./profile/PROJECTS.md)** - Recent work & open-source contributions
-- **[Research](./profile/RESEARCH.md)** - Publications & interests
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="95%"/>
-</div>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=2000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!;Don't+forget+to+star+my+repositories!;Let's+innovate+together!" alt="Footer" />
-</div>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,24&height=200&section=footer&animation=fadeIn" width="100%"/>
-</div>
+- [Projects](https://github.com/TNG-Blue/.github/blob/master/profile/PROJECTS.md) — what is active and what is next
+- [Tech stack](https://github.com/TNG-Blue/.github/blob/master/profile/TECH_STACK.md) — tools per domain
+- [Research](https://github.com/TNG-Blue/.github/blob/master/profile/RESEARCH.md) — focus areas and roadmap
+- [Contributing](https://github.com/TNG-Blue/.github/blob/master/CONTRIBUTING.md) ·
+  [Security](https://github.com/TNG-Blue/.github/blob/master/SECURITY.md) ·
+  [Support](https://github.com/TNG-Blue/.github/blob/master/SUPPORT.md)
