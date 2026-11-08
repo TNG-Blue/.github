@@ -44,13 +44,6 @@ closed-loop, and verified before it moves real hardware.
 | **VPI Detection** | Training-free, hardware-accelerated object detection | Jetson · VPI |
 | **Portenta H7** | Dual-core real-time firmware | STM32H747 |
 
-## 🧭 How we work
-
-```mermaid
-flowchart LR
-  M[Model &<br/>derivation] --> S[Simulation<br/>MATLAB · Gazebo] --> SIL[SIL] --> HIL[HIL] --> B[Bench] --> F[Field]
-```
-
 ## 🛠️ Stack
 
 <div align="center">
